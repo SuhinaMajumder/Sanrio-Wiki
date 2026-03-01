@@ -1,122 +1,94 @@
 🌸 Sanrio Character Hub – Dynamic Character Encyclopedia
 
-Sanrio Character Hub is a dynamic web-based application that showcases structured character profiles inspired by the Sanrio universe.
+Sanrio Character Hub is a full-stack web application that manages and displays structured character profiles inspired by the Sanrio universe.
 
-Developed as a full-stack web project, this system focuses on backend–database integration, structured data handling, and dynamic content rendering using Java (JSP/Servlets) and MySQL.
+Built using Java (JSP/Servlets) and MySQL, the project demonstrates backend connectivity, structured data handling, and dynamic content rendering.
 
 ✨ Features
 
-📚 Dynamic Character Display
+📚 Dynamic character profile display
 
-Fetches character data directly from MySQL
+🗂 Relational database structure
 
-Displays name, image, species, and birthday
+🔄 JDBC-based data retrieval
 
-🗂 Structured Data Management
+🧩 Data mapping using List<Map<String, String>>
 
-Relational database schema
+🎨 Clean and responsive UI
 
-Clean attribute organization
+⚙️ Scalable design for future enhancements
 
-🔄 Backend Data Processing
+🏗️ Application Flow
 
-JDBC connectivity
+Instead of a broken ASCII diagram, use this clean structured flow:
 
-ResultSet handling
+[ MySQL Database ]
+          ↓
+[ JDBC Connection ]
+          ↓
+[ Servlet Controller ]
+          ↓
+[ JSP Rendering Engine ]
+          ↓
+[ Dynamic Web Interface ]
 
-Data mapping using List<Map<String, String>>
-
-🎨 Responsive Web Interface
-
-Clean layout using HTML & CSS
-
-Dynamic rendering using JSP
-
-⚙️ Scalable Design
-
-Easily extendable for CRUD operations
-
-Designed to support search and filtering features
+This renders properly on GitHub because it's inside triple backticks.
 
 🛠️ Tech Stack
 
 Frontend: HTML5, CSS3
-
 Backend: Java (JSP & Servlets)
-
 Database: MySQL
-
 Server: Apache Tomcat
-
 Connectivity: JDBC
 
 📂 Project Structure
 sanrio-character-hub/
-│── src/
+│
+├── src/
 │   ├── servlets/
 │   ├── database/
 │
-│── WebContent/
+├── WebContent/
 │   ├── index.jsp
 │   ├── style.css
 │
-│── sql/
+├── sql/
 │   └── sanrio_db.sql
 │
 └── README.md
-🚀 How to Run the Project
+
+This layout keeps indentation consistent so GitHub won’t distort it.
+
+🚀 How to Run
 
 Clone the repository
-
 git clone https://github.com/your-username/sanrio-character-hub.git
 
 Import into Eclipse / IntelliJ
 
-Configure MySQL database
+Configure MySQL and update JDBC credentials
 
-Create database
+Deploy using Apache Tomcat
 
-Import provided SQL file
-
-Update JDBC credentials in the backend
-
-Deploy on Apache Tomcat
-
-Access via:
-
+Open in browser:
 http://localhost:8080/sanrio-character-hub
-🎓 Academic Purpose
 
-This project demonstrates core full-stack development concepts including:
+🎓 Academic Objective
 
-Database connectivity using JDBC
+This project demonstrates:
 
-Dynamic content rendering with JSP
+Database connectivity
+
+Dynamic JSP rendering
 
 Backend-to-frontend data flow
 
 Java Collection Framework usage
 
-Structured web application architecture
-
-🧠 Key Learnings
-
-Managing relational data in MySQL
-
-Handling ResultSet and mapping structured collections
-
-Designing dynamic JSP pages
-
-Maintaining separation of logic and presentation
-
-Building scalable web application foundations
+Structured web application development
 
 👩‍💻 Author
 
 Suhina Majumder
 Bachelor of Computer Applications (BCA)
-Focused on backend systems, structured design, and scalable web development.
-
-📜 License
-
-This project is created for academic and educational purposes.
