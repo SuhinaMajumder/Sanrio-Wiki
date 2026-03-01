@@ -65,7 +65,7 @@ This layout keeps indentation consistent so GitHub won’t distort it.
 🚀 How to Run
 
 Clone the repository
-git clone https://github.com/your-username/sanrio-character-hub.git
+git clone https://github.com/SuhinaMajumder/Sanrio-Wiki.git
 
 Import into Eclipse / IntelliJ
 
