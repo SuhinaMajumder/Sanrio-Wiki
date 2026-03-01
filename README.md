@@ -1,94 +1,81 @@
-🌸 Sanrio Character Hub
-📌 Project Overview
+🌸 Sanrio Wiki – Dynamic Character Encyclopedia
+Sanrio Character Hub is a dynamic web-based application that showcases structured character profiles inspired by the Sanrio universe.
+Developed as a full-stack web project, this system focuses on backend–database integration, structured data handling, and dynamic content rendering using Java (JSP/Servlets) and MySQL.
+✨ Features
+📚 Dynamic Character Display
+Fetches character data directly from MySQL
+Displays name, image, species, and birthday
 
-Sanrio Character Hub is a web-based character encyclopedia designed to store, manage, and display detailed information about Sanrio characters.
+🗂 Structured Data Management
+Relational database schema
+Clean attribute organization
 
-The application dynamically retrieves character data such as name, image, species, and birthday from a structured database and presents it through an interactive web interface.
+🔄 Backend Data Processing
+JDBC connectivity
+ResultSet handling
+Data mapping using List<Map<String, String>>
 
-This project demonstrates backend data handling, structured storage, and clean frontend integration.
+🎨 Responsive Web Interface
+Clean layout using HTML & CSS
+Dynamic rendering using JSP
 
-🎯 Objectives
+⚙️ Scalable Design
+Easily extendable for CRUD operations
+Designed to support search and filtering features
 
-Build a structured character information system
-
-Implement backend database connectivity
-
-Dynamically retrieve and display character data
-
-Design a clean and user-friendly UI
-
-Apply core full-stack development concepts
-
-🛠️ Technologies Used
-
-Frontend: HTML, CSS
-
-Backend: Java (JSP/Servlets)
-
+🛠️ Tech Stack
+Frontend: HTML5, CSS3
+Backend: Java (JSP & Servlets)
 Database: MySQL
-
-IDE: (Add your IDE here – e.g., Eclipse / IntelliJ)
-
 Server: Apache Tomcat
+Connectivity: JDBC
 
-📂 Features
+📂 Project Structure
+sanrio-character-hub/
+│── src/
+│   ├── servlets/
+│   ├── database/
+│
+│── WebContent/
+│   ├── index.jsp
+│   ├── style.css
+│
+│── sql/
+│   └── sanrio_db.sql
+│
+└── README.md
+🚀 How to Run the Project
+Clone the repository
+git clone https://github.com/your-username/sanrio-character-hub.git
+Import into Eclipse / IntelliJ
+Configure MySQL database
+Create database
+Import provided SQL file
+Update JDBC credentials in the backend
+Deploy on Apache Tomcat
+Access via:
+http://localhost:8080/sanrio-character-hub
 
-✔️ Displays detailed character profiles
-✔️ Stores character information in a relational database
-✔️ Dynamic data retrieval using JDBC
-✔️ Structured key-value data handling using HashMap
-✔️ Clean and organized layout
-
-🗄️ Database Structure
-
-The system stores character data with attributes such as:
-
-Name
-
-Image URL
-
-Species
-
-Birthday
-
-Data is retrieved using SQL queries and mapped into structured collections before being rendered on the frontend.
-
-⚙️ How It Works
-
-Character data is stored in a MySQL database.
-
-Backend Java code connects to the database using JDBC.
-
-ResultSet data is processed and stored in a List<Map<String, String>>.
-
-The frontend dynamically displays the retrieved character information.
-
-🚀 Learning Outcomes
-
-Through this project, I strengthened my understanding of:
-
-Database connectivity
-
+🎓 Academic Purpose
+This project demonstrates core full-stack development concepts including:
+Database connectivity using JDBC
+Dynamic content rendering with JSP
 Backend-to-frontend data flow
+Java Collection Framework usage
+Structured web application architecture
 
-Collection framework usage (HashMap & List)
-
-MVC architecture basics
-
-Dynamic web development
-
-📈 Future Enhancements
-
-Add search and filtering functionality
-
-Implement CRUD operations (Add, Update, Delete characters)
-
-Improve UI/UX design
-
-Add authentication for admin management
+🧠 Key Learnings
+Managing relational data in MySQL
+Handling ResultSet and mapping structured collections
+Designing dynamic JSP pages
+Maintaining separation of logic and presentation
+Building scalable web application foundations
 
 👩‍💻 Author
-
 Suhina Majumder
 Bachelor of Computer Applications (BCA)
-Passionate about technology, structured systems, and creative web solutions.
+Focused on backend systems, structured design, and scalable web development.
+
+📜 License
+
+This project is created for academic and educational purposes.
