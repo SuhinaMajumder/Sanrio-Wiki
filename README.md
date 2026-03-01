@@ -42,22 +42,24 @@ Database: MySQL
 Server: Apache Tomcat
 Connectivity: JDBC
 
-📂 Project Structure
+## 📂 Project Structure
+
+```
 sanrio-character-hub/
 │
 ├── src/
 │   ├── servlets/
-│   ├── database/
+│   └── database/
 │
 ├── WebContent/
 │   ├── index.jsp
-│   ├── style.css
+│   └── style.css
 │
 ├── sql/
 │   └── sanrio_db.sql
 │
 └── README.md
-
+```
 This layout keeps indentation consistent so GitHub won’t distort it.
 
 🚀 How to Run
